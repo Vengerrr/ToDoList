@@ -82,7 +82,7 @@ function App(props) {
   }, [tasks.length, prevTaskLength]);
   return (
     <div className="todoapp stack-large">
-      <h1>Привет, Кирочка!</h1>
+      <h1>My plans</h1>
       <Form addTask={addTaks}/>
       <div className="filters btn-group stack-exception">
         {filterList}
